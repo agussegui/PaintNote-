@@ -31,9 +31,9 @@ export const EmptyBoards = () => {
     return (
         <div className="h-full flex flex-col items-center justify-center">
             <Image 
-                src="/note.png"
-                height={300}
-                width={300}
+                src="/note.svg"
+                height={400}
+                width={400}
                 alt="empty"
             />
             <h2 className="text-2xl font-semibold mt-6">Create your first board!</h2>

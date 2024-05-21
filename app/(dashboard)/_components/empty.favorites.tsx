@@ -4,9 +4,9 @@ export const EmptyFavorites = () =>{
     return (
         <div className="h-full flex flex-col items-center justify-center">
             <Image 
-                src="/empty-favorites.png"
-                height={300}
-                width={300}
+                src="/empty-favorites.svg"
+                height={400}
+                width={400}
                 alt="empty"
             />
             <h2 className="text-2xl font-semibold mt-6">No Favorites boards!</h2>

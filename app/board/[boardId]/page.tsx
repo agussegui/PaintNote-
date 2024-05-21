@@ -1,3 +1,4 @@
+"use client"
 import Canvas from "./_components/canvas"
 
 import { Room } from "@/components/room";

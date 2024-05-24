@@ -25,9 +25,6 @@ export const ColorPicker = ({onChange}: ColorPickerProps) => {
             <ColorButton color={{ r: 155, g: 155, b: 155 }} onClick={onChange} />
             <ColorButton color={{ r: 0, g: 0, b: 0 }} onClick={onChange} />
 
-
-
-
         </div>
     )
 }
